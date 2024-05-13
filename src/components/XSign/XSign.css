@@ -1,0 +1,47 @@
+.x-sign {
+  height: 18px;
+  position: relative;
+  width: 18px;
+}
+
+.x-sign:after {
+  border-left: 1px solid rgb(47, 47, 76);
+  content: "";
+  height: 18px;
+  left: 8px;
+  position: absolute;
+  transform: rotate(45deg);
+}
+
+.x-sign:before {
+  border-left: 1px solid rgb(47, 47, 76);
+  content: "";
+  height: 18px;
+  left: 8px;
+  position: absolute;
+  transform: rotate(-45deg);
+}
+
+.x-sign-winning {
+  height: 18px;
+  position: relative;
+  width: 18px;
+}
+
+.x-sign-winning:after {
+  border-left: 1px solid rgb(92, 82, 235);
+  content: "";
+  height: 18px;
+  left: 8px;
+  position: absolute;
+  transform: rotate(45deg);
+}
+
+.x-sign-winning:before {
+  border-left: 1px solid rgb(92, 82, 235);
+  content: "";
+  height: 18px;
+  left: 8px;
+  position: absolute;
+  transform: rotate(-45deg);
+}

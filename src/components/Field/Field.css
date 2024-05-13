@@ -1,0 +1,9 @@
+.field {
+  align-items: center;
+  background-color: rgb(243, 247, 245);
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  margin: 0.5px;
+  width: 30px;
+}

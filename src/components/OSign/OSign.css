@@ -1,0 +1,15 @@
+.o-sign {
+  border: 1px solid rgb(47, 47, 76);
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 16px;
+  width: 16px;
+}
+
+.o-sign-winning {
+  border: 1px solid rgb(92, 82, 235);
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 16px;
+  width: 16px;
+}
